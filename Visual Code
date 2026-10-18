@@ -1,0 +1,11 @@
+import random
+secret = random.randint(1,10)
+
+print("Guess the number!")
+guess = int(input("Choose a number from 1 t0 10:"))
+
+if guess == secret:
+    print("Gang richtig! You WON")
+          
+else:
+    print("Nein fast!, the number was:", secret)
